@@ -3,8 +3,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="text-warning bg-success mt-4 pt-5">division_1</div>
-      <div className="text-white bg-danger ms-2 p-2">division_2</div>
+      <div className="bg-info m-3 p-4 border-dark border-bottom">
+        first_division
+      </div>
+      <div className="bg-light m-3 p-4 border rounded">second_division</div>
+      <div className="bg-light m-3 p-4 border border-danger border-top-0 rounded">
+        third_division
+      </div>
+      <div className="text-danger bg-light m-3 p-4 border rounded shadow-lg">
+        fourth_division
+      </div>
     </div>
   );
 }
